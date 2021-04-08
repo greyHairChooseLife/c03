@@ -6,11 +6,11 @@
 /*   By: sangykim <sangykim@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/07 04:22:41 by sangykim          #+#    #+#             */
-/*   Updated: 2021/04/07 04:47:21 by sangykim         ###   ########.fr       */
+/*   Updated: 2021/04/08 17:34:40 by sangykim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*fr_strcat(char *dest, char *src)
+char	*ft_strcat(char *dest, char *src)
 {
 	int		i;
 	int		j;
