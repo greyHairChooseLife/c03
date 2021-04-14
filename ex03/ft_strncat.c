@@ -6,7 +6,7 @@
 /*   By: sangykim <sangykim@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/07 04:48:04 by sangykim          #+#    #+#             */
-/*   Updated: 2021/04/08 17:44:25 by sangykim         ###   ########.fr       */
+/*   Updated: 2021/04/14 20:35:27 by sangykim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,6 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 		i++;
 		j++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }
